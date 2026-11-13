@@ -1,0 +1,17 @@
+Requisitos Funcionais – Instituto Laços
+RF01 – Autenticação de usuários: O sistema deverá permitir que funcionários realizem login por meio de e-mail e senha, validando suas credenciais e controlando o acesso por meio de sessões autenticadas com tempo de expiração.
+
+RF02 – Tela principal: O sistema deverá apresentar uma tela inicial contendo a identificação do funcionário logado, as opções de acesso aos módulos do sistema e a funcionalidade de logout.
+
+RF03 – Gerenciamento de pretendentes: O sistema deverá permitir cadastrar, consultar, pesquisar, editar e excluir os dados dos pretendentes, garantindo que as alterações sejam salvas no banco de dados.
+
+RF04 – Gerenciamento de crianças: O sistema deverá permitir cadastrar, consultar, editar e excluir crianças, sendo obrigatório vincular cada criança a um pretendente previamente cadastrado.
+
+RF05 – Gerenciamento de agendamentos: O sistema deverá permitir cadastrar, consultar, editar e excluir atendimentos, exibindo os agendamentos organizados por dia e apresentando as informações da criança, do pretendente responsável e da data do atendimento.
+
+
+1.2 Preencha os requisitos de infraestrutura
+SGBD Utilizado: Postgres
+Versão: 18
+Linguagem de Programação: java
+Versão: 25
